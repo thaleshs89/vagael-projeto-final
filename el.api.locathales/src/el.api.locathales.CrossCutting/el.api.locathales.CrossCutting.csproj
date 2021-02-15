@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\el.api.locathales.Application\el.api.locathales.Application.csproj" />
+    <ProjectReference Include="..\el.api.locathales.Domain\el.api.locathales.Domain.csproj" />
+    <ProjectReference Include="..\el.api.locathales.Infrastructure\el.api.locathales.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
